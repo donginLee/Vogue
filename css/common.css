@@ -1,9 +1,5 @@
 @charset "utf-8";
-/* VOGUE PJ 공통 기능 디자인 - common.css */
 
-
-
-/**************** 1. 상단영역 *****************/
 #top {
     position: relative;
     z-index: 9999;
@@ -363,7 +359,6 @@
 
 
 
-/***************** 3. 하단영역 *********************/
 .info {
     min-height: 285px;
     background-color: #000;
@@ -384,7 +379,6 @@
     margin: 20px 0 10px;
 }
 
-/* 3-3. 하단링크 */
 .blink {
     display: flex;
     flex-wrap: wrap;
@@ -417,7 +411,7 @@
     display: none;
 
 }
-/* 탑버튼 마우스 오버시 */
+
 .tbtn:hover {
     background-color:blue;
 }
