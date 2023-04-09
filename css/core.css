@@ -27,15 +27,11 @@
 .ibx {
     max-width: 1300px;
     margin: 0 auto;
-    /* 1300px보다 크면 중앙정렬
-    작으면 auto로 width를 유지함! */
-    /* outline: 3px dotted blue; */
 }
 
 .rbx {
     position: relative;
-    /* 부모자격 - .rbxIn */
-    /* outline: 2px dotted orange; */
+
 }
 
 .rbx::before {
@@ -62,9 +58,8 @@
 
 .cbx {
     position: relative;
-    /* 부모자격 */
     height: 100%;
-    /* 부모박스를 채움 */
+ 
 }
 
 .cbx::after {
